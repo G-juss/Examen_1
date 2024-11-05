@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       routerDelegate: AppRouter.router.routerDelegate,
       routeInformationParser: AppRouter.router.routeInformationParser,
       routeInformationProvider: AppRouter.router.routeInformationProvider,
-      title: 'App con Drawer',
+      title: 'drawer',
       theme: ThemeData(primarySwatch: Colors.blue),
     );
   }
@@ -53,7 +53,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: Center(
-        child: Text('Bienvenido a la App'),
+        child: Text('Bienvenido Estudiante'),
       ),
     );
   }
